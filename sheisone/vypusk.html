@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Каталог весна - лето</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="assets/css/bootstrapTheme.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="js/modernizr.custom.js"></script>
+  </head>
+  <body>
+
+    <!-- header -->
+    <header>
+
+      <div class="namelogo">
+        <a href="#">КИРА Фотомодель</a>
+      </div>
+
+      <div class="menu">
+        <nav>
+          <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="vesna-leto.html">Весна - Лето'23</a></li>
+            <li><a class="current" href="vypusk.html">Для выпускниц</a></li>
+            <li><a href="about.html">Обо мне</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- gallery -->
+    <div class="container">
+			<div id="grid-gallery" class="grid-gallery">
+				<section class="grid-wrap">
+					<ul class="grid">
+						<li class="grid-sizer"></li><!-- for Masonry column width -->
+						<li><img src="img/school-1s.jpg" alt="img01"/></li>
+						<li><img src="img/school-2s.jpg" alt="img02"/></li>
+						<li><img src="img/school-3s.jpg" alt="img03"/></li>
+						<li><img src="img/school-4s.jpg" alt="img04"/></li>
+						<li><img src="img/school-5s.jpg" alt="img05"/></li>
+					</ul>
+				</section>
+
+				<!-- // grid-wrap -->
+				<section class="slideshow">
+					<ul>
+						<li><img src="img/school-1.jpg" alt="img01"/></li>
+						<li><img src="img/school-2.jpg" alt="img02"/></li>
+						<li><img src="img/school-3.jpg" alt="img03"/></li>
+						<li><img src="img/school-4.jpg" alt="img04"/></li>
+						<li><img src="img/school-5.jpg" alt="img05"/></li>
+					</ul>
+					<nav>
+						<span class="icon nav-prev"></span>
+						<span class="icon nav-next"></span>
+						<span class="icon nav-close"></span>
+					</nav>
+					<div class="info-keys icon">Navigate with arrow keys</div>
+				</section><!-- // slideshow -->
+			</div><!-- // grid-gallery -->
+		</div>
+
+    <!-- scripts  -->
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpGridGallery.js"></script>
+    <script>
+      new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
+    </script>
+
+    <!-- footer -->
+    <!-- <footer style="display: block;">
+      <i>Сайт создан на psheno.com</i>
+    </footer> -->
+  </body>
+</html>
