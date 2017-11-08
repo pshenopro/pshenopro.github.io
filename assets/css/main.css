@@ -3060,7 +3060,14 @@
 			}
 
 				#header h1 {
-					font-size: 1.35em;
+					font-size: 1.37em;
+			    color: white;
+				}
+
+				#header h1 strong {
+					font-size: 1.2em;
+					display: block;
+					text-align: center;
 				}
 
 		/* Footer */
