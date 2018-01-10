@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Video in KAZAN CITY</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <!-- Шапка -->
+    <div id="header">
+      <div class="header_left">
+        <span>Видео-ролики для бизнеса в Казани</span>
+      </div>
+      <div class="header_right">
+        <span>8 (843) 999-99-99</span>
+        <a href="#">Заказавать звонок</a>
+      </div>
+    </div>
+    <br style="clear:both">
+
+    <!-- меню -->
+    <div id="head_menu">
+      <ul>
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">О нас</a></li>
+        <li><a href="#">Наши клиенты</a></li>
+        <li><a href="#">Виды роликов</a></li>
+        <li><a href="#">Портфолио</a></li>
+        <li><a href="#">Цены</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+    </div>
+
+    <!-- Первый блок -->
+    <div class="box_1">
+      <div><img src="BeamLightLogoWhite.png" alt=""></div>
+      <div><span>Создание видео-роликов и проведение съемки </span></div>
+      <div><span>для решения маркетинговых , имиджевых и презентационных задач</span></div>
+      <div><span>Посмотрите короткое видео о нашей команде</span></div>
+      <img class="array_1" src="array_1.png" alt="">
+      <a href="#">смотреть видео</a>
+      <div><span>Листайте вниз, чтобы узнать больше</span></div>
+      <img src="mouse_1.png" alt="">
+    </div>
+
+    <!-- второй блок -->
+    <div class="box_2">
+      <div><span>Немного о BeamLight</span></div>
+      <div>
+        <!-- Левая форма -->
+        <div class="box_2_left" style="margin-right:300px;">
+          <div class="box_2_left_1">
+            <img src="forma_1.png" alt="">
+            <span>Чем мы занимаемся</span>
+          </div>
+          <div class="box_2_left_2">
+            <span>Сегодня видеоролик способен решать сотни различных задач! Мы создаем видеорекламу, которая продает лучше любого менеджера. Мы делаем презентационные ролики, которые способны рассказать и показать больше, чем любая многочасовая лайв-презентация. А наши корпоративные и имиджевые видео позволяют эффективно продемонстрировать лучшие стороны любого продукта, бизнеса или организации.</span>
+          </div>
+        </div>
+        <!-- Правый форма -->
+        <div class="box_2_left">
+          <div class="box_2_left_1">
+            <img src="forma_2.png" alt="">
+            <span>Наша команда</span>
+          </div>
+          <div class="box_2_left_2">
+            <span>В нашей команде только творческие люди, у которых за плечами большой опыт в создании видеороликов, репортажной съёмки, составления сценариев и качественном видео-монтаже. В своей работе мы используем только современную и профессиональную технику. Вместе мы - команда профессионалов своего дела.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Третий блок -->
+    <div class="box_3">
+      <div>
+        <span>Нам доверяют</span>
+      </div>
+      <div>
+        <ul class="logo_par">
+          <li><img src="logo_1.png" alt=""></li>
+          <li><img src="logo_2.png" alt=""></li>
+          <li><img src="logo_3.png" alt=""></li>
+          <li><img src="logo_4.png" alt=""></li>
+          <li><img src="logo_5.png" alt=""></li>
+          <li><img src="logo_6.png" alt=""></li>
+          <li><img src="logo_7.png" alt=""></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- четвертый блок -->
+    <div class="box_4">
+      <div class="box_4_text_1">
+        <span>Какие задачи мы решаем</span>
+        <div></div>
+        <span>Список наших услуг не ограничивается только видами работ, представленными ниже. Большой опыт всех членов команды позволяет нам реализовывать любые ваши идеи. Обучающий фильм, кино трейлер, видео отзыв, рекламное видео для кинотеатра – обратитесь к нам, и мы найдём решение ваших задач.</span>
+      </div>
+      <div class="uslugi">
+        <div>
+          <img src="usluga_img_1.png" alt="">
+          <h2>Рекламные видеоролики о товарах и услугах</h2>
+          <span>Основная задача ролика проста – продать продукт. Для этого нужно убедить зрителя в полезности, эффективности товара/услуги, продемонстрировать его качества.</span>
+        </div>
+        <div>
+          <img src="usluga_img_2.png" alt="">
+          <h2>Презентационные или корпоративные фильмы</h2>
+          <span>Фильмы о компании нужны в первую очередь для создания образа компании, поддержания её имиджа. Важно выделить особенности вашей компании и рассказать о них интересно.</span>
+        </div>
+        <div>
+          <img src="usluga_img_3.png" alt="">
+          <h2>Видео инфографика, анимационные ролики</h2>
+          <span>Сайт – инструмент продаж. Если вы задумываетесь о том, как увеличить его эффективность, обратите внимание на видеоролики. Посетители охотнее посмотрят видео, чем прочтут текст.</span>
+        </div>
+        <div>
+          <img src="usluga_img_4.png" alt="">
+          <h2>Съемка мероприятий и промо-роликов</h2>
+          <span>Коммерческая съемка мероприятий используется для рекламы следующего мероприятия такого же формата. На мероприятие придет больше людей, если они посмотрят, как прошло предыдущее</span>
+        </div>
+      </div>
+      <div class="box_4_text_2">
+        <span>Портфолио</span>
+        <div></div>
+        <span>Посмотрите наши последние работы</span>
+      </div>
+    </div>
+
+    <!-- Пятый блок -->
+    <div class="box_work">
+      <!-- <div><img src="work_1.png" alt=""></div>
+      <div><img src="work_2.png" alt=""></div>
+      <div><img src="work_3.png" alt=""></div>
+      <div><img src="work_4.png" alt=""></div>
+      <div><img src="work_5.png" alt=""></div>
+      <div><img src="work_6.png" alt=""></div>
+      <div><img src="work_7.png" alt=""></div>
+      <div><img src="work_8.png" alt=""></div> -->
+      <div class="box_work_1"><a href="#">Смотреть</a></div>
+      <div class="box_work_2"><a href="#">Смотреть</a></div>
+      <div class="box_work_3"><a href="#">Смотреть</a></div>
+      <div class="box_work_4"><a href="#">Смотреть</a></div>
+      <div class="box_work_5"><a href="#">Смотреть</a></div>
+      <div class="box_work_6"><a href="#">Смотреть</a></div>
+      <div class="box_work_7"><a href="#">Смотреть</a></div>
+      <div class="box_work_8"><a href="#">Смотреть</a></div>
+    </div>
+
+    <!-- footer -->
+    <footer id="footer">
+      <div>
+        <img src="bl.png" alt="">
+        <p>Видео-ролики для бизнеса в Казани</p>
+      </div>
+      <div>
+        <span>КОНТАКТЫ</span>
+        <a href="#"><img src="vk.png" alt=""></a>
+        <a href="#"><img src="you.png" alt=""></a>
+        <a href="#"><img src="tweet.png" alt=""></a>
+        <span>Политика конфиденциальности</span>
+      </div>
+      <div>
+        <span>8 (843) 999-99-99</span>
+        <p>mail@mail.com</p>
+      </div>
+    </footer>
+  </body>
+</html>
