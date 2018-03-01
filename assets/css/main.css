@@ -2566,6 +2566,9 @@
 			font-size: 1.3em;
 		}
 
+		#footer .icons .fa-codepen:hover {
+			color: black;
+		}
 		#footer .icons .fa-vk:hover {
 			color: #507299;
 		}
