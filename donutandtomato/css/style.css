@@ -357,6 +357,8 @@ header {
     max-height: auto;
   }
   .container_1 {
+    margin: 0;
+    height: 100%;
     background-size: contain;
     background-position: top;
     overflow: auto;
