@@ -32,14 +32,20 @@ header {
   margin: 0 auto;
   padding-top: 61px;
 }
-.container_1 header nav a {
+.toggle-nav {
+  display: none;
+}
+.container_1 header nav li {
+  display: inline-block;
+}
+.container_1 header nav li a {
   padding: 18px 35px;
   font-family: 'bigjohn', sans-serif;
   font-size: 18px;
   text-transform: uppercase;
   text-decoration: none;
 }
-.container_1 header nav a:hover {
+.container_1 header nav li a:hover {
   color: #ffd500;
   background: black;
   border-radius: 20px;
@@ -340,4 +346,165 @@ header {
 .container_4-contact p:nth-of-type(3) {
   display: inline-block;
   padding-top: 47px;
+}
+
+
+/* for mobile */
+@media screen and (max-width: 640px) {
+  header {
+    padding: 0;
+  }
+  .container_1 {
+    background-size: contain;
+    background-position: top;
+    overflow: auto;
+  }
+  .menu {
+    position:relative;
+    display:inline-block;
+    }
+    .menu ul.active {
+      display:none;
+    }
+    .menu ul {
+      /* width: 100%; */
+      position: absolute;
+      top: 86%;
+      left: 6px;
+      padding: 10px 18px;
+      box-shadow: 0px 1px 1px rgba(0,0,0,0.15);
+      /* border-radius: 3px; */
+      background: #30303096;
+    }
+    .menu ul:after {
+      width:0px;
+      height:0px;
+      position:absolute;
+      top:0%;
+      left:22px;
+      content:'';
+      transform:translate(0%, -100%);
+      border-left:7px solid transparent;
+      border-right:7px solid transparent;
+      border-bottom:7px solid #303030;
+    }
+    .menu li {
+      margin: 5px 0px 5px 0px;
+      width: 88vw;
+      max-width: 100%;
+      float: none;
+      display: block;
+    }
+    .menu a {
+      display: block;
+      padding: 13px 25px;
+      font-size: 54px;
+      color: white;
+    }
+    .toggle-nav {
+      padding-left: 38px;
+      padding-top: 25px;
+      /* float: left; */
+      display: inline-block;
+      /* box-shadow: 0px 1px 1px rgba(0,0,0,0.15); */
+      /* border-radius: 3px; */
+      /* background: #303030; */
+      /* text-shadow: 0px 1px 0px rgba(0,0,0,0.5); */
+      color: #777;
+      font-size: 26px;
+      transform: rotate(90deg);
+      /* transition: color linear 0.15s; */
+    }
+    .toggle-nav:hover, .toggle-nav.active {
+    text-decoration:none;
+    color: white;
+    }
+
+  .see-more_box {
+    margin: 34px auto;
+  }
+  .container_2-inner-box {
+    padding-top: 70px;
+  }
+  .container_1 > header > div:nth-child(2) > span {
+    font-size: 30px;
+  }
+  p.container_2-leftbox {
+    height: 83px;
+    background-image: url(../img/bg_glasses.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+    text-transform: uppercase;
+    font-size: 33px;
+    font-family: 'bigjohn', sans-serif;
+  }
+  p.container_2-rightbox {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 12px 32px;
+    font-size: 21px;
+  }
+  .container_2-inner-box-1 {
+    padding: 0;
+  }
+  .container_2-inner-box-1 div {
+    padding-top: 100px;
+    width: auto;
+    height: auto;
+  }
+  .container_2-inner-box-1 div h3 {
+    padding-top: 40px;
+    font-size: 22px;
+  }
+  .container_2-inner-box-1 div p {
+    padding: 24px 0;
+    text-align: justify;
+    font-size: 19px;
+  }
+  .container_3-myworks p {
+    margin: 0;
+    height: 83px;
+    float: none;
+    background-image: url(../img/bg_glasses.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+    font-family: 'bigjohn', sans-serif;
+    font-size: 33px;
+  }
+  .container_3-works {
+    margin: 45px auto 0;
+  }
+  .container_4-form {
+    padding: 0;
+    transform: translateY(106px);
+  }
+  .container_4-contact {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+    width: auto;
+    height: auto;
+    text-align: center;
+  }
+  .container_4-contact-p {
+    transform: translateY(-597px);
+  }
+  .container_4-contact p:nth-of-type(1) {
+    padding-top: 0;
+  }
+  .container_4-contact-p {
+    padding-bottom: 36px;
+    background-size: contain;
+    text-align: center;
+    font-size: 33px;
+  }
+  .container_4-contact ul li {
+    padding: 0;
+  }
+  .container_4-contact div {
+    padding: 38px 21px;
+  }
 }
