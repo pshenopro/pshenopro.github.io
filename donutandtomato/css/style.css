@@ -353,6 +353,8 @@ header {
 @media screen and (max-width: 640px) {
   header {
     padding: 0;
+    height: auto;
+    max-height: auto;
   }
   .container_1 {
     background-size: contain;
